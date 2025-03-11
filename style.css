@@ -1,0 +1,248 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+/* BUTTON STYLES */
+.btn-label{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.blue-button {
+    color: #fff;
+    background-color: #0078d4;
+    border: none;
+    border-radius: unset;
+    padding: 15px 32px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.white-button {
+    color: #0078D4;
+    background-color: #fff;
+    border: none;
+    border-radius: unset;
+    padding: 15px 32px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.white-button:hover{
+    color: #0078D4;
+    background-color: #dee2e6;
+}
+
+.blue-button:hover {
+    background-color: #0063b1;
+}
+        
+.quote-section {
+    padding: 3rem 0;
+}
+
+
+
+.quote-author {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.quote-title {
+    font-size: 0.9rem;
+}
+
+/* Spacing */
+.py-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.py-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.p-32{
+    padding: 32px;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-18{
+    margin-bottom: 18px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.w-20{
+    width: 20%;
+}
+.w-100{
+    width: 100%;
+}
+.banner-container > img{
+    width: 100%;
+}
+.spacing-small{
+    height: 40px;
+}
+.line-spacing{
+    background-color: #C3C3C3;
+    height: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* FONT - TEXT */
+.hero-text {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+.text-22{
+    font-size: 22px;
+    line-height: 28px;
+}
+.text-28{
+    font-size: 28px;
+    line-height: 32px;
+}
+.text-32{
+    font-size: 32px;
+    line-height: 36px;
+}
+.text-38{
+    font-size: 39px;
+    line-height: 44px;
+}
+.text-45{
+    font-size: 45px;
+    line-height: 52px;
+}
+.text-128{
+    font-size: 128px;
+    line-height: 136px;
+}
+.text-65{
+    font-size: 65px;
+    line-height: 72px;
+}
+.normal{
+    font-weight: 400;
+}
+.medium{
+    font-weight: 500;
+}
+.semibold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700;
+}
+.center{
+    text-align: center;
+}
+.at-right{
+    text-align: right;
+}
+.justify{
+    text-align: justify;
+}
+/* COLOR */
+.bg-282833{
+    background-color: #282833;
+}
+.bg-010B1A{
+    background-color: #010B1A;
+}
+.bg-C3C3C3{
+    background-color: #C3C3C3;
+}
+.bg-3B3B3B{
+    background-color: #3B3B3B;
+}
+.bg-blue-1{
+    background-color: #60CDFF;
+}
+.bg-blue-2{
+    background-color: #0078D4;
+}
+.blue-1{
+    color: #60CDFF;
+}
+.black{
+    color: #000;
+}
+.white{
+    color: #fff;
+}  
+/* Mobile responsiveness */
+@media (max-width: 991.98px) {
+    .py-6{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .pe-5{
+        padding-right:calc(var(--bs-gutter-x)* .5)!important;
+    }
+    .mx-auto, .w-20{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mb-60{
+        margin-bottom: 50px;
+    }
+    .text-22 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .text-28{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .text-38 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .text-45 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .text-65{
+        font-size: 56px;
+        line-height: 64px;
+    }
+    .text-128 {
+        font-size: 100px;
+        line-height: 110px;
+    }
+    .btn-label {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .mobile-center{
+        text-align: center;
+    }
+    .col-md-12{
+        padding-bottom: 50px;
+    }
+    .hero-image-container {
+        margin-top: 0;
+    }
+    .quote-text {
+        font-size: 1.25rem;
+    }
+}
+        
+@media (max-width: 767.98px) {
+    .hero-text {
+        font-size: 0.95rem;
+    }
+    
+    .quote-section {
+        padding: 2rem 0;
+    }
+    
+    .quote-text {
+        font-size: 1.1rem;
+    }
+}
