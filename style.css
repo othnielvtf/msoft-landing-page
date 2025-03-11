@@ -189,6 +189,10 @@ body {
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
+    .py-5{
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
     .pe-5{
         padding-right:calc(var(--bs-gutter-x)* .5)!important;
     }
