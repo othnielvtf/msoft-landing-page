@@ -50,6 +50,11 @@ body {
 .quote-title {
     font-size: 0.9rem;
 }
+/* logo container */
+.left-logo, .right-logo{
+    max-width: 300px; 
+    width: 100%;
+}
 
 /* Spacing */
 .py-80{
@@ -141,6 +146,9 @@ body {
 .center{
     text-align: center;
 }
+.at-left{
+    text-align: left;
+}
 .at-right{
     text-align: right;
 }
@@ -222,8 +230,16 @@ body {
     .mobile-center{
         text-align: center;
     }
+    .left-logo, .right-logo{
+        max-width: 150px; 
+        width: 100%;
+    }
     .col-md-12{
         padding-bottom: 50px;
+    }
+    .left-logo, .right-logo{
+        max-width: 300px; 
+        width: 100%;
     }
     .hero-image-container {
         margin-top: 0;
