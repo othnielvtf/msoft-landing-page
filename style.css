@@ -231,7 +231,7 @@ body {
         text-align: center;
     }
     .left-logo, .right-logo{
-        max-width: 150px; 
+        max-width: 150px!important; 
         width: 100%;
     }
     .col-md-12{
