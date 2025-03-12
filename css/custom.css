@@ -498,6 +498,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -555,6 +556,7 @@ legend + * {
 
 [type=search] {
   -webkit-appearance: textfield;
+  appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -577,6 +579,7 @@ legend + * {
 ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
+  appearance: button;
 }
 
 output {
@@ -13190,7 +13193,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("../../images/hero.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/othnielvtf/msoft-landing-page@main/assets/hero.png");
   background-size: cover;
   background-position: center 80%;
   z-index: -1;

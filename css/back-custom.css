@@ -128,11 +128,11 @@ p {
 	overflow: hidden
 }
 
-.hero .h1,
+/* .hero .h1,
 .hero h1,
 .hero p {
 	
-}
+} */
 
 @media(max-width:991px) {
 	.hero img {
@@ -146,7 +146,7 @@ p {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-image: url(../../images/hero.png);
+	background-image: url("https://cdn.jsdelivr.net/gh/othnielvtf/msoft-landing-page@main/assets/hero.png");
 	background-size: auto 5000px;
 	background-position: 50%;
 	z-index: -1
