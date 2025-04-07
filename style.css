@@ -61,6 +61,14 @@ body {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+.py-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.px-2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 .py-6{
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -174,6 +182,9 @@ body {
 .bg-blue-2{
     background-color: #0078D4;
 }
+.bg-white{
+    background-color: #fff;
+}
 .blue-1{
     color: #60CDFF;
 }
@@ -182,7 +193,10 @@ body {
 }
 .white{
     color: #fff;
-}  
+}
+.dark-blue-text{
+    color: #010B1A;
+}
 /* Mobile responsiveness */
 @media (max-width: 991.98px) {
     .py-6{
